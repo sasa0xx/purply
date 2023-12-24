@@ -1,0 +1,30 @@
+.header{
+  display: flex;
+  column-gap: 10px;
+  background-color: #4B0082;
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  left: 0px;
+  height: 70px;
+  align-items: center;
+}
+.right{
+  flex: 1;
+  margin-right: 10px;
+  max-width: 250px;
+  display: flex;
+  column-gap: 5px;
+}
+.left{
+  flex: 1.7;
+  margin-left: 10px;
+}
+.username{
+  color:#DF00FF;
+  align-self: center;
+}
+.img{
+  width: 50px;
+  border-radius: 50px;
+}
